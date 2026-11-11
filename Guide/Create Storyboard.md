@@ -1,4 +1,3 @@
-7 min
 
 The success of a video project depends on many things, but *storyboarding* is definitely one of them. It helps you plan your shots, set the tone, and keep things tight when you’re creating, whether that’s on set or inside an AI tool.
 

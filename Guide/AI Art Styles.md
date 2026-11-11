@@ -1,7 +1,5 @@
 ## AI Art Styles Explained: A Visual Guide With Examples
 
-18 min
-
 ## Sci-Fi & Cyberpunk Style
 
 ### Characteristics

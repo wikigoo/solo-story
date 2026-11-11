@@ -1,0 +1,12 @@
+# تنظیمات Obsidian
+.obsidian/
+
+# کلیدها و اطلاعات محرمانه
+_key/
+
+desktop.ini
+
+Adobe Premiere Pro Audio Previews/
+Adobe Premiere Pro Auto-Save/
+Adobe Premiere Pro Captured and Generated/
+

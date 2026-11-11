@@ -67,16 +67,12 @@ https://github.com/wikigoo/solo-story/blob/main/Instructions/Instructions-TTS-Ed
 - هیچ کلمه‌ای که باعث نوشته یا برچسب در تصویر شود به کار نبر.
 - اندازه پیشنهادی تصویر را برای تنظیم در نود بنویس، نه در متن پرامپت.
   
-نمـــونه
-
-flux2-prompt-node-v2
-
+نمـــونه شیت : [[Sample-prompt-sheet-character]]
+https://github.com/wikigoo/solo-story/tree/main/Example/sheet-character
 خروجی:
 - هر پرامپت در یک کد بلاک جدا در چت.
-- همه با هم در فایل D:\.VP-VAULT\solo\Producing\Hamlet\Character-Sheets.md
 ---
 ---
-
 ### ۵. مرجع مکان‌ها و وسایل کلیدی
 
 با همان رشته style، همان Lookها و همان فرمت JSON کتاب بصری، پرامپت‌های مرجع مکان‌ها و وسایل کلیدی هملت را بنویس.
@@ -98,13 +94,12 @@ flux2-prompt-node-v2
 
 خروجی:
 - هر پرامپت در یک کد بلاک جدا در چت.
-- همه با هم در فایل D:\.VP-VAULT\solo\Producing\Hamlet\Location-Sheets.md
 ---
 ---
 
 ### مرحله دستی، قبل از پرامپت ۶
 
-تصاویر شیت‌ها را بسازید و بهترین نسخه را انتخاب کنید. پنل‌های لازم را برش بزنید و با نام‌های روشن در پوشه `D:\.VP-VAULT\solo\Producing\Hamlet\References\` بگذارید. مثلاً:
+تصاویر شیت‌ها را بسازید و بهترین نسخه را انتخاب کنید. پنل‌های لازم را برش بزنید و با نام‌های روشن در پوشه  بگذارید. مثلاً:
 
 - `CHR_Horatio_front.png`
 - `LOC_Ramparts_night.png`
@@ -114,7 +109,7 @@ flux2-prompt-node-v2
 ---
 ### ۶. شات‌لیست هر صحنه
 
-با اسکیل solo-shotlist برای نریشن صحنه [شماره] از فایل D:\.VP-VAULT\solo\Producing\Hamlet\Narration-1.md شات‌لیست بنویس.
+ solo-shotlist برای نریشن صحنه [شماره] از فایل D:\.VP-VAULT\solo\Producing\Hamlet\Narration-1.md شات‌لیست بنویس.
 
 - فایل‌های Character-Sheets.md و Location-Sheets.md را بخوان و فهرست تصاویر پوشه References را ببین.
 - در هر شات، خط هویت هر شخصیت حاضر را عیناً در description بیاور.
@@ -123,13 +118,12 @@ flux2-prompt-node-v2
 - شماره‌گذاری شات‌ها از شات بعد از آخرین شات صحنه قبل ادامه پیدا کند.
 - اسکریپت lint را اجرا کن و فایل را با نام Shot-List-[شماره].md کنار نریشن ذخیره کن.
 
- [نمـــونه](https://github.com/wikigoo/solo-story/blob/main/Example/%D8%B4%D8%A7%D8%AA-%D9%84%DB%8C%D8%B3%D8%AA.md)
+ نمونه شات لیست :  [[Sample-Shot-List]]
+https://github.com/wikigoo/solo-story/blob/main/Example/Sample-Shot-List.md
+قالب پرامپت متن به تصویر :
+https://github.com/wikigoo/solo-story/blob/main/Template/flux2-prompt-node-v2.md
 
  ---
  ---
 
-برای هر صحنه یک بار پرامپت ۶ را بفرستید، یا حداکثر برای دو صحنه با هم. اگر همه ۱۲ صحنه را یک‌جا بخواهید، حدود ۱۵۰ شات می‌شود و کیفیت هر شات پایین می‌آید.
 
-شات‌لیستی که در این گفتگو برای صحنه ۱ ساختیم را هم می‌توانید بعد از مرحله ۵ با همین پرامپت ۶ دوباره بسازید تا خط‌های هویت و مرجع‌ها در آن بیاید.
-
----

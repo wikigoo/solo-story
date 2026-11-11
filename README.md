@@ -18,7 +18,7 @@ https://github.com/wikigoo/solo-story/blob/main/Example/Sample-Key-Scenes.md
 ---
 ---
 
-### ۲. نریشن صحنه در یک مرحله
+### ۲. نریشن 
 
  برای صحنه‌ها یک نریشن روایی و دراماتیک بنویس. 
 

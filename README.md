@@ -12,6 +12,9 @@
 
 خروجی را مستقیم در چت بنویس، نه در سند یا فایل.
 
+نمونه : [[Sample-Key-Scenes]]
+https://github.com/wikigoo/solo-story/blob/main/Example/Sample-Key-Scenes.md
+
 ---
 ---
 
@@ -27,6 +30,9 @@
 خروجی:
 - نریشن در یک کد بلاک مارک‌داون در همین چت.
 
+نمونه : [[Sample-Narration]]
+https://github.com/wikigoo/solo-story/blob/main/Example/Sample-Narration.md
+
 ---
 ---
 
@@ -36,9 +42,11 @@
 - روانی جمله‌ها را برای خوانش با صدای بلند بررسی کن.
 - فهرست تغییرات را در چت بنویس و نسخه اصلاح‌شده را در همان فایل ذخیره کن.
 
----
----
+دستورالعمل : [[Instructions-TTS-Editor]]
+https://github.com/wikigoo/solo-story/blob/main/Instructions/Instructions-TTS-Editor.md
 
+---
+---
 ### ۴. کتاب بصری و شیت شخصیت‌ها
 
 بر اساس نریشن D:\.VP-VAULT\solo\Producing\Hamlet\Narration-1.md و با قواعد اسکیل solo-shotlist و فایل flux2-schema.md، کتاب بصری فیلم را بساز.

@@ -68,9 +68,11 @@ https://elevenlabs.io/voices/U1Vk2oyatMdYs096Ety7
 - برای هر شخصیت یک «خط هویت» کوتاه انگلیسی بنویس تا عیناً در پرامپت همه شات‌ها کپی شود.
 - هیچ کلمه‌ای که باعث نوشته یا برچسب در تصویر شود به کار نبر.
 - اندازه پیشنهادی تصویر را برای تنظیم در نود بنویس، نه در متن پرامپت.
+
+دستورالعمل : [[Instructions-Character-Sheet]]
+https://github.com/wikigoo/solo-story/blob/main/Instructions/Instructions-Character-Sheet.md
   
 نمـــونه شیت : [[Sample-prompt-character-sheet]]
-
 https://github.com/wikigoo/solo-story/blob/main/Example/character-sheet/Sample-prompt-character-sheet.md
 
 خروجی:

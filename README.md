@@ -45,6 +45,8 @@ https://github.com/wikigoo/solo-story/blob/main/Example/Sample-Narration.md
 دستورالعمل : [[Instructions-TTS-Editor]]
 https://github.com/wikigoo/solo-story/blob/main/Instructions/Instructions-TTS-Editor.md
 
+https://elevenlabs.io/voices/U1Vk2oyatMdYs096Ety7
+
 ---
 ---
 ### ۴. کتاب بصری و شیت شخصیت‌ها | character-sheet

@@ -41,7 +41,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 - **Type A:** one character seen in several ages or costumes; all states in one image, one state per column. With more than three states, the states are split over several images, and the main state is repeated as the first column of each.
 - **Type B:** three single-state characters in one image, one character per column.
 
-**Image size in the node:** 1536 × 1024 for three columns, 1024 × 1024 for two columns. Set the size in the node, not in the prompt text.
+**Image size in the node:** 1536 × 1280 for three columns, 1024 × 1536 for two columns. Taller panels give the full-body views more room. Set the size in the node, not in the prompt text.
 
 **Prompt format:** every prompt uses exactly the fields of the node `Template/flux2-prompt-node-v2.html`: `prompt`, `style`, `camera` (with `angle`, `distance`, `lens`, `f-number`, `ISO`, `focus`), `lighting`, `colors` (with `palette` and `mood`) and `composition`. Each field can be pasted directly into the matching node field.
 
@@ -49,7 +49,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type A 1: Hamlet in Mourning Attire · Hamlet in Fencing Attire · Hamlet in Dishevelled Clothes; scenes 1–8 and 12
 
-**Size in the node:** 1536 × 1024 · **File name:** `CHR_Hamlet_states.png`
+**Size in the node:** 1536 × 1280 · **File name:** `CHR_Hamlet_states.png`
 
 ```json
 {
@@ -65,7 +65,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#0A0A0A", "#EDEAE3", "#2A2A2E", "#C9CCCF"],
+    "palette": [
+      "#0A0A0A",
+      "#EDEAE3",
+      "#2A2A2E",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Three equal columns, two rows. Top row: three front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: three front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Hamlet in Mourning Attire\", \"Hamlet in Fencing Attire\", \"Hamlet in Dishevelled Clothes\""
@@ -84,7 +89,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type A 2: Hamlet in Mourning Attire · Hamlet in Travel Clothes; scenes 10 and 11
 
-**Size in the node:** 1024 × 1024 · **File name:** `CHR_Hamlet_states_2.png`
+**Size in the node:** 1024 × 1536 · **File name:** `CHR_Hamlet_states_2.png`
 
 ```json
 {
@@ -100,7 +105,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#0A0A0A", "#4A4A4E", "#7A6A58", "#C9CCCF"],
+    "palette": [
+      "#0A0A0A",
+      "#4A4A4E",
+      "#7A6A58",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Two equal columns, two rows. Top row: two front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: two front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Hamlet in Mourning Attire\", \"Hamlet in Travel Clothes\""
@@ -117,11 +127,11 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type A 3: Old Hamlet in Armour · Old Hamlet in Gown; scenes 1, 3 and 8
 
-**Size in the node:** 1024 × 1024 · **File name:** `CHR_OldHamlet_states.png`
+**Size in the node:** 1024 × 1536 · **File name:** `CHR_OldHamlet_states.png`
 
 ```json
 {
-  "prompt": "A character reference image arranged in a grid of two columns and two rows, separated by thin plain grey gaps, on a plain seamless light grey backdrop, with a caption strip under each column. In every column the top panel is a head-and-shoulders close-up facing the camera directly, and the bottom panel is a full-body view from head to feet facing the camera directly. Left column, captioned \"Old Hamlet in Armour\": Old Hamlet, a tall broad-shouldered man about sixty, gaunt face, sunken sorrowful dark eyes, strong straight nose, short dark beard and moustache heavily streaked with silver, pale skin, complete late sixteenth-century plate armour from head to foot in dark polished steel with thin gilded borders, a plain steel close helmet with a smooth rounded skull and the visor raised to show the whole face, steel gorget, rounded pauldrons, articulated gauntlets, a deep crimson sash across the breastplate from right shoulder to left hip, holding a short dark marshal's baton in the right hand, rendered as a solid fully opaque figure, solemn grieving expression. Right column, captioned \"Old Hamlet in Gown\": the same man as in the other columns, with an identical face, alive and healthy with natural skin colour, short greying dark hair, bare head, a loose dark crimson velvet gown with a brown fur collar over a white linen shirt, soft black velvet slippers, a heavy gold ring on his right hand, gentle tired expression. The captions are the only text in the image.",
+  "prompt": "A character reference image arranged in a grid of two columns and two rows, separated by thin plain grey gaps, on a plain seamless light grey backdrop, with a caption strip under each column. In every column the top panel is a head-and-shoulders close-up facing the camera directly, and the bottom panel is a full-body view from head to feet facing the camera directly. Left column, captioned \"Old Hamlet in Armour\": Old Hamlet, a tall broad-shouldered man about sixty, gaunt face, sunken sorrowful dark eyes, strong straight nose, short dark beard and moustache heavily streaked with silver, pale skin, complete late sixteenth-century plate armour from head to foot in dark polished steel with thin gilded borders, a plain steel close helmet with a smooth rounded skull and the visor raised to show the whole face, steel gorget, rounded pauldrons, articulated gauntlets, a deep crimson sash across the breastplate from right shoulder to left hip, holding a short dark marshal's baton in the right hand, rendered as a solid fully opaque figure, solemn grieving expression. Right column, captioned \"Old Hamlet in Gown\": the same man as in the other columns, with an identical face, alive and healthy with natural skin colour, short grey hair streaked with silver like his beard, bare head, a loose dark crimson velvet gown with a brown fur collar over a white linen shirt, soft black velvet slippers, a heavy gold ring on his right hand, gentle tired expression. The captions are the only text in the image.",
   "style": "Cinematic photograph, historical drama, Renaissance-era Denmark, natural film grain, rich shadow detail, restrained realistic color, image fills the entire frame edge to edge",
   "camera": {
     "angle": "eye level, straight-on front view in every panel",
@@ -133,7 +143,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#2B2F33", "#B8963E", "#6B1E22", "#C9CCCF"],
+    "palette": [
+      "#2B2F33",
+      "#B8963E",
+      "#6B1E22",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Two equal columns, two rows. Top row: two front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: two front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Old Hamlet in Armour\", \"Old Hamlet in Gown\""
@@ -143,7 +158,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 **Identity lines:**
 
 - Old Hamlet in Armour: `ghost of an old warrior about sixty, gaunt pale face, sorrowful dark eyes, short dark beard streaked with silver, full dark steel plate armour with thin gilded borders, plain steel close helmet with the visor raised, crimson sash, short marshal's baton in right hand`
-- Old Hamlet in Gown: `the old man about sixty, gaunt face, short dark beard streaked with silver, short greying hair, bare head, loose dark crimson velvet gown with brown fur collar`
+- Old Hamlet in Gown: `the old man about sixty, gaunt face, short dark beard streaked with silver, short grey hair streaked with silver, bare head, loose dark crimson velvet gown with brown fur collar`
 
 **Note:** The armour is for the ghost in scenes 1, 3 and 8; the gown is for the orchard flashback in scene 3 and the locket portrait in scene 8. In the sheet the ghost is deliberately solid. In the shots, add to the identity line: `faintly translucent, glowing pale`. The caption and description use Old Hamlet and old warrior instead of king, because the word king gave the ghost a crown in shot 6.
 
@@ -151,11 +166,11 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type A 4: Ophelia · Ophelia in Madness; scenes 4–6 and 9–11
 
-**Size in the node:** 1024 × 1024 · **File name:** `CHR_Ophelia_states.png`
+**Size in the node:** 1024 × 1536 · **File name:** `CHR_Ophelia_states.png`
 
 ```json
 {
-  "prompt": "A character reference image arranged in a grid of two columns and two rows, separated by thin plain grey gaps, on a plain seamless light grey backdrop, with a caption strip under each column. In every column the top panel is a head-and-shoulders close-up facing the camera directly, and the bottom panel is a full-body view from head to feet facing the camera directly. Left column, captioned \"Ophelia\": Ophelia, a young noblewoman about eighteen, slender and of medium height, delicate oval face, pale skin, large hazel eyes, small straight nose, soft full lips, long straight light golden-brown hair parted in the centre and gathered in a loose braid down her back, bare head, a pale blue silk gown with a fitted bodice, long sleeves and a small white lace collar, a thin silver girdle at the waist, holding a small closed prayer book with a dark leather cover and brass clasp in both hands, gentle shy expression. Right column, captioned \"Ophelia in Madness\": the same woman as in the other columns, with an identical face, thinner and paler, faint shadows under red-rimmed eyes, long light golden-brown hair worn loose and tangled to the waist with small wildflowers and stems caught in it, a modest loose white linen gown with long sleeves and a high gathered neckline, crumpled, the hem grey with dust and torn in one place, barefoot, holding a loose bunch of rosemary sprigs, purple and yellow pansies, small white daisies and a few faded violets against her chest, distant dreamy half-smile. The captions are the only text in the image.",
+  "prompt": "A character reference image arranged in a grid of two columns and two rows, separated by thin plain grey gaps, on a plain seamless light grey backdrop, with a caption strip under each column. In every column the top panel is a head-and-shoulders close-up facing the camera directly, and the bottom panel is a full-body view from head to feet facing the camera directly. Left column, captioned \"Ophelia\": Ophelia, a young noblewoman about eighteen, slender and of medium height, delicate oval face, pale skin, large hazel eyes, small straight nose, soft full lips, long straight light golden-brown hair parted in the centre and gathered in a single long loose braid brought forward over her right shoulder to the waist, bare head, a pale blue silk gown with a fitted bodice, long sleeves and a small white lace collar, a thin silver girdle at the waist, holding a small closed prayer book with a dark leather cover and brass clasp in both hands, gentle shy expression. Right column, captioned \"Ophelia in Madness\": the same woman as in the other columns, with an identical face, thinner and paler, faint shadows under red-rimmed eyes, long light golden-brown hair worn loose and tangled to the waist with small wildflowers and stems caught in it, a modest loose white linen gown with long sleeves and a high gathered neckline, crumpled, the hem grey with dust and torn in one place, barefoot, holding a loose bunch of rosemary sprigs, purple and yellow pansies, small white daisies and a few faded violets against her chest, distant dreamy half-smile. The captions are the only text in the image.",
   "style": "Cinematic photograph, historical drama, Renaissance-era Denmark, natural film grain, rich shadow detail, restrained realistic color, image fills the entire frame edge to edge",
   "camera": {
     "angle": "eye level, straight-on front view in every panel",
@@ -167,7 +182,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#9DB4CC", "#EDE8DE", "#B8875A", "#C9CCCF"],
+    "palette": [
+      "#9DB4CC",
+      "#EDE8DE",
+      "#B8875A",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Two equal columns, two rows. Top row: two front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: two front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Ophelia\", \"Ophelia in Madness\""
@@ -176,7 +196,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 **Identity lines:**
 
-- Ophelia: `Ophelia, young noblewoman about eighteen, delicate oval face, pale skin, large hazel eyes, long straight light golden-brown hair in a loose braid down her back, pale blue silk gown with a fitted bodice and small white lace collar, holding a small closed prayer book with a dark leather cover and brass clasp`
+- Ophelia: `Ophelia, young noblewoman about eighteen, delicate oval face, pale skin, large hazel eyes, long straight light golden-brown hair in a single long loose braid over her right shoulder, pale blue silk gown with a fitted bodice and small white lace collar, holding a small closed prayer book with a dark leather cover and brass clasp`
 - Ophelia in Madness: `Ophelia after her madness, young noblewoman about eighteen, delicate oval face, pale skin, large hazel eyes with red rims, long loose tangled light golden-brown hair with wildflowers caught in it, modest loose white linen gown with long sleeves, crumpled and dusty at the hem, barefoot, holding a bunch of rosemary, pansies, daisies and faded violets`
 
 **Note:** The second state is for scenes 9 and 10. For scene 10, add a crown of wildflowers in the shot prompt.
@@ -185,7 +205,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type A 5: Laertes in Travel Clothes · Laertes in Fencing Attire; scenes 9–12
 
-**Size in the node:** 1024 × 1024 · **File name:** `CHR_Laertes_states.png`
+**Size in the node:** 1024 × 1536 · **File name:** `CHR_Laertes_states.png`
 
 ```json
 {
@@ -201,7 +221,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#5B646B", "#EDEAE3", "#8A6A45", "#C9CCCF"],
+    "palette": [
+      "#5B646B",
+      "#EDEAE3",
+      "#8A6A45",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Two equal columns, two rows. Top row: two front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: two front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Laertes in Travel Clothes\", \"Laertes in Fencing Attire\""
@@ -221,7 +246,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type B 1: Horatio · Gertrude · Claudius; scenes 1–12
 
-**Size in the node:** 1536 × 1024 · **File name:** `CHR_Group_Horatio_Gertrude_Claudius.png`
+**Size in the node:** 1536 × 1280 · **File name:** `CHR_Group_Horatio_Gertrude_Claudius.png`
 
 ```json
 {
@@ -237,7 +262,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#111111", "#1E2F5C", "#7A1F24", "#C9CCCF"],
+    "palette": [
+      "#111111",
+      "#1E2F5C",
+      "#7A1F24",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Three equal columns, two rows. Top row: three front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: three front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Horatio\", \"Gertrude\", \"Claudius\""
@@ -256,7 +286,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type B 2: Bernardo · Marcellus · Fortinbras; scenes 1–3 and 12
 
-**Size in the node:** 1536 × 1024 · **File name:** `CHR_Group_Bernardo_Marcellus_Fortinbras.png`
+**Size in the node:** 1536 × 1280 · **File name:** `CHR_Group_Bernardo_Marcellus_Fortinbras.png`
 
 ```json
 {
@@ -272,7 +302,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#5A3E2B", "#4F6475", "#1E2F4A", "#C9CCCF"],
+    "palette": [
+      "#5A3E2B",
+      "#4F6475",
+      "#1E2F4A",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Three equal columns, two rows. Top row: three front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: three front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Bernardo\", \"Marcellus\", \"Fortinbras\""
@@ -291,7 +326,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type B 3: Polonius · Rosencrantz · Guildenstern; scenes 2, 4, 5, 6 and 8
 
-**Size in the node:** 1536 × 1024 · **File name:** `CHR_Group_Polonius_Rosencrantz_Guildenstern.png`
+**Size in the node:** 1536 × 1280 · **File name:** `CHR_Group_Polonius_Rosencrantz_Guildenstern.png`
 
 ```json
 {
@@ -307,7 +342,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#2F4A35", "#C9A23A", "#5A2A4A", "#C9CCCF"],
+    "palette": [
+      "#2F4A35",
+      "#C9A23A",
+      "#5A2A4A",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Three equal columns, two rows. Top row: three front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: three front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"Polonius\", \"Rosencrantz\", \"Guildenstern\""
@@ -326,11 +366,11 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type B 4: First Player · Boy Player · Yorick; scenes 4, 6 and 11
 
-**Size in the node:** 1536 × 1024 · **File name:** `CHR_Group_FirstPlayer_BoyPlayer_Yorick.png`
+**Size in the node:** 1536 × 1280 · **File name:** `CHR_Group_FirstPlayer_BoyPlayer_Yorick.png`
 
 ```json
 {
-  "prompt": "A character reference image arranged in a grid of three columns and two rows, separated by thin plain grey gaps, on a plain seamless light grey backdrop, with a caption strip under each column. In every column the top panel is a head-and-shoulders close-up facing the camera directly, and the bottom panel is a full-body view from head to feet facing the camera directly. Left column, captioned \"First Player\": First Player, a middle-aged travelling actor about fifty, weathered expressive face with deep laugh lines, grey-flecked brown beard, long greying brown hair tied back, warm brown eyes, bare head, a faded crimson stage cloak with a frayed gold border over a worn brown doublet, patched brown breeches, scuffed boots, holding a painted wooden crown with chipped gilt and glass jewels in one hand, theatrical warm expression. Middle column, captioned \"Boy Player\": a slim beardless youth about sixteen dressed to play a woman on stage, narrow boyish face with a slightly square jaw beneath the makeup, thick white powder on the face, round rouged cheeks, darkened eyebrows, reddened lips, light brown eyes, a long pale blonde stage wig with a slightly artificial sheen topped by a small painted wooden crown, a stiff old-fashioned gold-and-rose brocade gown that is a little too broad at the shoulders, with worn patches and a frayed hem, a lace ruff yellowed with age, hands clasped in front in a theatrical ladylike manner. Right column, captioned \"Yorick\": Yorick, a lively court jester about forty, lean and agile, thin expressive face with a wide grin, merry dark eyes, clean-shaven, a soft red and green cap with small brass bells, a two-coloured motley tunic in faded red and green, matching parti-coloured hose, soft leather shoes, holding a short jester's stick with a small carved head, laughing. The captions are the only text in the image.",
+  "prompt": "A character reference image arranged in a grid of three columns and two rows, separated by thin plain grey gaps, on a plain seamless light grey backdrop, with a caption strip under each column. In every column the top panel is a head-and-shoulders close-up facing the camera directly, and the bottom panel is a full-body view from head to feet facing the camera directly. Left column, captioned \"First Player\": First Player, a middle-aged travelling actor about fifty, weathered expressive face with deep laugh lines, grey-flecked brown beard, long greying brown hair tied back, warm brown eyes, bare head, a faded crimson stage cloak with a frayed gold border over a worn brown doublet, patched brown breeches, scuffed boots, holding a painted wooden crown with chipped gilt and glass jewels in one hand, theatrical warm expression. Middle column, captioned \"Boy Player\": a slim beardless youth about sixteen dressed to play a woman on stage, clearly a teenage boy beneath the costume: narrow boyish face with a square jaw and a visible Adam's apple, flat chest, slightly broad bony shoulders, his own short brown hair showing at the hairline under the front edge of the wig, thick white powder on the face, round rouged cheeks, darkened eyebrows, reddened lips, light brown eyes, a long pale blonde stage wig with a slightly artificial sheen topped by a small painted wooden crown, a stiff old-fashioned gold-and-rose brocade gown that is a little too broad at the shoulders, with worn patches and a frayed hem, a lace ruff yellowed with age, hands clasped in front in a theatrical ladylike manner. Right column, captioned \"Yorick\": Yorick, a lively court jester about forty, lean and agile, thin expressive face with a wide grin, merry dark eyes, clean-shaven, a soft red and green cap with small brass bells, a two-coloured motley tunic in faded red and green, matching parti-coloured hose, soft leather shoes, holding a short jester's stick with a small carved head, laughing. The captions are the only text in the image.",
   "style": "Cinematic photograph, historical drama, Renaissance-era Denmark, natural film grain, rich shadow detail, restrained realistic color, image fills the entire frame edge to edge",
   "camera": {
     "angle": "eye level, straight-on front view in every panel",
@@ -342,7 +382,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#8A2A22", "#C9A35A", "#3E6A3A", "#C9CCCF"],
+    "palette": [
+      "#8A2A22",
+      "#C9A35A",
+      "#3E6A3A",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Three equal columns, two rows. Top row: three front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: three front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"First Player\", \"Boy Player\", \"Yorick\""
@@ -352,7 +397,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 **Identity lines:**
 
 - First Player: `First Player, a middle-aged actor about fifty, weathered expressive face, grey-flecked brown beard, long greying hair tied back, faded crimson stage cloak over a worn brown doublet`
-- Boy Player: `Boy Player, a slim beardless youth about sixteen playing a woman, powdered face, rouged cheeks, long pale wig, stiff old-fashioned brocade gown`
+- Boy Player: `Boy Player, a slim beardless teenage boy about sixteen playing a woman, square boyish jaw, visible Adam's apple, flat chest, powdered face, rouged cheeks, long pale wig over his own short brown hair, stiff old-fashioned brocade gown`
 - Yorick: `Yorick, a lively jester about forty, thin expressive face with a wide grin, merry dark eyes, a two-coloured motley tunic in faded red and green, a soft cap with small bells`
 
 **Note:** The three performers are grouped together. The caption of the boy who plays the Player Queen is deliberately "Boy Player", not "Player Queen", so the word queen does not make the costume royal. In Shakespeare's theatre, women's roles were played by boys. The First Player wears the wooden crown in scene 6.
@@ -361,7 +406,7 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 
 ### Type B 5: First Gravedigger · Second Gravedigger; scene 11
 
-**Size in the node:** 1024 × 1024 · **File name:** `CHR_Group_Gravediggers.png`
+**Size in the node:** 1024 × 1536 · **File name:** `CHR_Group_Gravediggers.png`
 
 ```json
 {
@@ -377,7 +422,12 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
   },
   "lighting": "Soft, even, diffused studio light from the front left with gentle fill, identical in every panel, soft gentle shadows",
   "colors": {
-    "palette": ["#5A4632", "#7A7A72", "#C8B07A", "#C9CCCF"],
+    "palette": [
+      "#5A4632",
+      "#7A7A72",
+      "#C8B07A",
+      "#C9CCCF"
+    ],
     "mood": "neutral, clear, documentary reference"
   },
   "composition": "Two equal columns, two rows. Top row: two front-facing head-and-shoulders close-ups with eye lines aligned. Bottom row: two front-facing full-body views with feet on the same baseline. Under each column a light grey caption strip with centred bold dark navy sans-serif text: \"First Gravedigger\", \"Second Gravedigger\""
@@ -401,3 +451,4 @@ Cinematic photograph, historical drama, Renaissance-era Denmark, natural film gr
 - **Before use as a reference:** crop the caption strip off the image so the text does not leak into the shots. In each shot, pass only the column of the state the shot needs.
 - **Keeping the face consistent in Type A:** if the face differs slightly between the columns of one image, pass the first column's close-up as a reference and generate the image again.
 - **Changes from the previous version:** the six-panel sheets (front, three-quarter and profile) were converted to the new front-view format with captions; 24 separate sheets were merged into ten images; every character's headwear is now described explicitly and positively; the identity lines of Bernardo and Marcellus now include their names.
+- **Fixes after the first generation:** the Boy Player looked like a young woman, so his description now states the boyish features clearly (square jaw, Adam's apple, flat chest, his own short hair under the wig); Old Hamlet's hair in the gown now matches his silver-streaked beard; Ophelia's braid is brought forward over her shoulder so it is visible in a front view; the recommended image sizes are taller, as in the generated images. Only Type A 3, Type A 4 and Type B 4 need to be generated again.

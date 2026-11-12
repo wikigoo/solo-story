@@ -68,7 +68,9 @@ https://github.com/wikigoo/solo-story/blob/main/Instructions/Instructions-TTS-Ed
 - اندازه پیشنهادی تصویر را برای تنظیم در نود بنویس، نه در متن پرامپت.
   
 نمـــونه شیت : [[Sample-prompt-character-sheet]]
-https://github.com/wikigoo/solo-story/tree/main/Example/sheet-character
+
+https://github.com/wikigoo/solo-story/blob/main/Example/character-sheet/Sample-prompt-character-sheet.md
+
 خروجی:
 - هر پرامپت در یک کد بلاک جدا در چت.
 ---
@@ -92,6 +94,8 @@ https://github.com/wikigoo/solo-story/tree/main/Example/sheet-character
 - فهرست حداقلی مثلا : نیزه و کلاه‌خود نگهبان، فانوس شاخی، تاج ، جام با مروارید، دسته‌گل ، و دو تصویر کوچک پادشاه .
 - نامه‌ها و کتاب‌ها فقط بسته یا مهرشده دیده شوند، تا نوشته‌ای در تصویر نیاید.
 
+نمونه : [[Sample-prompt-Location-Sheets]]
+https://github.com/wikigoo/solo-story/blob/main/Example/Location-Sheets/Sample-prompt-Location-Sheets.md
 خروجی:
 - هر پرامپت در یک کد بلاک جدا در چت.
 
